@@ -1,0 +1,30 @@
+
+body {
+    background: url("../img/4.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* 固定背景图片，禁止滚动 */
+}
+
+.form {
+    background: rgba(255,255,255,0.7);
+    width:400px;
+    margin:120px auto;
+}
+
+/*阴影*/
+.fa {
+    display: inline-block;
+    top: 27px;
+    left: 6px;
+    position: relative;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding-left:26px;
+}
+
+.checkbox {
+    padding-left:21px;
+}
